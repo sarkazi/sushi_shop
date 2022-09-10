@@ -213,7 +213,7 @@ function calcCartPrice() {
 
 
 
-      if (currentPrice >= 1000) {
+      if (parseInt(totalPrice) >= 1000) {
          cartDelivery.innerHTML = 'Бесплатно';
          finalSumm.innerHTML = totalPrice + ' ₽';
 
